@@ -38,3 +38,5 @@ pip install flask flask-cors whisper transformers torch nltk pyttsx3 speech_reco
 
 # Utilisation de la Reconnaissance Vocale
 Pour utiliser la fonctionnalité de reconnaissance vocale, cliquez sur le bouton "🎤" pour enregistrer votre message audio. Le chatbot le convertira en texte et répondra en utilisant la logique de traitement de texte.
+
+

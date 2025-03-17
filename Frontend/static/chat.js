@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             setTimeout(() => {
                 mediaRecorder.stop();
-            }, 5000); // Enregistre 5 secondes
+            }, 5000); 
         }).catch(error => {
             console.error("Microphone access error:", error);
         });
