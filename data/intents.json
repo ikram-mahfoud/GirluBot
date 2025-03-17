@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "What's up?", "Hey girl!"],
+      "responses": ["Hey gorgeous! 💖", "Hello, beauty! 😍", "Hi queen! 👑 How can I help?", "Hey lovely! ✨"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you soon"],
+      "responses": ["Bye, babe! 💕", "See you soon, cutie! 😘", "Come back anytime, princess! 👑", "Have a fab day! 💅"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "You're the best!", "I appreciate it"],
+      "responses": ["You're welcome, love! 💖", "Anytime, queen! 👑", "Always happy to help! 💕"]
+    },
+    {
+      "tag": "fashion_tips",
+      "patterns": ["What should I wear today?", "Give me outfit ideas", "How can I style a dress?"],
+      "responses": [
+        "A cute floral dress with white sneakers is always a win! 🌸",
+        "Try layering a blazer over a crop top for a chic look! 💅",
+        "Accessories can make or break your outfit! Add some gold jewelry ✨"
+      ]
+    },
+    {
+      "tag": "makeup_tips",
+      "patterns": ["Best lipstick color?", "How do I do a smokey eye?", "What foundation suits my skin tone?"],
+      "responses": [
+        "For a classic look, red lipstick never fails! 💄",
+        "Smokey eyes? Start with a brown base, blend in black, and add shimmer! ✨",
+        "Fair skin? Go for pink/nude. Medium skin? Peachy tones! Dark skin? Deep reds & berries!"
+      ]
+    },
+    {
+      "tag": "skincare",
+      "patterns": ["How do I get clear skin?", "Best skincare routine?", "How often should I exfoliate?"],
+      "responses": [
+        "Cleanse, tone, moisturize, and don’t forget sunscreen! 🌞",
+        "Exfoliate 2-3 times a week for that smooth, glowing skin! ✨",
+        "Hydrate, babe! Drinking water helps keep your skin fresh 💧"
+      ]
+    },
+    {
+      "tag": "haircare",
+      "patterns": ["How do I keep my hair healthy?", "Best shampoo for dry hair?", "How do I get shiny hair?"],
+      "responses": [
+        "Use a sulfate-free shampoo and deep condition weekly! 💆‍♀️",
+        "Dry hair? Try coconut oil treatments for deep hydration! 🥥",
+        "Rinse your hair with cold water to lock in shine! ✨"
+      ]
+    },
+    {
+      "tag": "selfcare",
+      "patterns": ["How do I relax?", "Self-care ideas?", "How to feel confident?"],
+      "responses": [
+        "Take a warm bubble bath, light a candle, and put on your fave playlist! 🎶",
+        "Self-care ideas? Face mask, journaling, yoga, or treating yourself to something nice! 💖",
+        "Confidence comes from within! Dress up, smile, and own it, queen! 👑"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Make me laugh!", "Got any funny stories?"],
+      "responses": [
+        "Why did the mascara break up with the eyeliner? Because it felt like it was being drawn into drama! 😂",
+        "What’s a beauty guru’s favorite type of exercise? Blending! 🖌️",
+        "I tried to make a belt out of watches… it was a waist of time! ⏳😂"
+      ]
+    },
+    {
+      "tag": "fitness_tips",
+      "patterns": ["How can I get fit?", "Best workout for weight loss?", "What exercises are good for toning?"],
+      "responses": [
+        "Try a combination of cardio and strength training for best results! 🏋️‍♀️",
+        "High-intensity interval training (HIIT) is great for burning calories fast! 🔥",
+        "Squats, lunges, and push-ups are excellent for toning muscles! 💪"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I need motivation", "I'm feeling down", "Give me some inspiration"],
+      "responses": [
+        "You’ve got this, queen! 🌟 Keep pushing forward, success is on the way! 💪",
+        "Believe in yourself, always. You're stronger than you think! 💖",
+        "Don’t give up! The best things come when you least expect them! ✨"
+      ]
+    },
+    {
+      "tag": "nutrition_tips",
+      "patterns": ["What's a healthy diet?", "What should I eat to lose weight?", "Give me some healthy snack ideas"],
+      "responses": [
+        "Focus on eating whole foods: fruits, vegetables, lean proteins, and whole grains! 🥗",
+        "For healthy snacks, try almonds, Greek yogurt, or fresh fruit! 🍏",
+        "Drink plenty of water and limit processed sugars! Your body will thank you! 💧"
+      ]
+    },
+    {
+      "tag": "travel_advice",
+      "patterns": ["Where should I go for a vacation?", "Best travel destinations?", "Any tips for traveling on a budget?"],
+      "responses": [
+        "If you love adventure, try hiking in the Swiss Alps or exploring the Amazon rainforest! 🏞️",
+        "You can’t go wrong with Paris for romance, or Bali for a beach escape! 🏖️",
+        "Travel on a budget? Look for flight deals, use local transportation, and stay in hostels! ✈️"
+      ]
+    },
+    {
+      "tag": "music_tips",
+      "patterns": ["What's a good playlist for working out?", "Give me music recommendations", "What's your favorite song?"],
+      "responses": [
+        "For a workout, try upbeat pop or rap tracks to keep you energized! 🎧",
+        "Music recommendations: Try some indie rock, pop, or even lo-fi beats for focus! 🎶",
+        "I love any song with a great beat! But right now, 'Levitating' by Dua Lipa is on repeat! 🎵"
+      ]
+    },
+    {
+      "tag": "book_recommendations",
+      "patterns": ["Can you recommend a book?", "What should I read next?", "Give me some good book ideas"],
+      "responses": [
+        "If you're into fantasy, try 'The Hobbit' by J.R.R. Tolkien! 📚",
+        "Looking for a thrilling read? Check out 'The Silent Patient' by Alex Michaelides! 📖",
+        "For a classic, 'To Kill a Mockingbird' by Harper Lee is always a great choice! 📚"
+      ]
+    },
+    {
+      "tag": "technology_trends",
+      "patterns": ["What's the latest tech trend?", "Tell me about AI", "Any new gadgets I should know about?"],
+      "responses": [
+        "AI and machine learning are the future! Companies are using them to revolutionize everything from healthcare to transportation. 🤖",
+        "Have you heard of quantum computing? It's a game-changer for the tech world! 💻",
+        "Virtual reality is gaining traction, with new VR headsets offering immersive experiences! 🕶️"
+      ]
+    },
+    {
+      "tag": "environmental_tips",
+      "patterns": ["How can I be more eco-friendly?", "What can I do to help the environment?", "Tips for reducing my carbon footprint?"],
+      "responses": [
+        "Start by reducing plastic use! Bring reusable bags and water bottles wherever you go! ♻️",
+        "Consider using renewable energy sources like solar panels or wind turbines! 🌞",
+        "Carpooling, biking, and walking are great ways to reduce your carbon footprint! 🚶‍♀️"
+      ]
+    },
+    {
+      "tag": "daily_inspiration",
+      "patterns": ["Give me a daily quote", "I need some inspiration today", "What’s the quote of the day?"],
+      "responses": [
+        "“The only way to do great work is to love what you do.” – Steve Jobs 💡",
+        "“Success is not final, failure is not fatal: It is the courage to continue that counts.” – Winston Churchill 💪",
+        "“Believe you can and you’re halfway there.” – Theodore Roosevelt 🌟"
+      ]
+    }
+  ]
+}

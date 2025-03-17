@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot | KikoMah</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">˚˖𓍢၈🌷GirlyBot.🌺༘⋆</div>
+
+        <div class="chat" id="chat"></div>
+
+        <div class="input-container">
+            <input type="text" class="input" id="input" placeholder="Type your message here....">
+            <button class="button" id="button"><i class="fa-brands fa-telegram"></i></button>
+            <button class="mic-button">🎤</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+</html>

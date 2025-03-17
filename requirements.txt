@@ -1,0 +1,15 @@
+Flask
+Flask-CORS
+torch
+torchvision
+torchaudio
+transformers
+numpy
+nltk
+whisper
+openai-whisper
+speechrecognition
+pyttsx3
+pydub
+scipy
+requests
